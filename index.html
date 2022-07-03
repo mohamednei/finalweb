@@ -1,97 +1,83 @@
 <!DOCTYPE html>
-<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <title> My Portfolio Website | Mohammed </title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Portfolio </title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
 <body>
-  <!-- Move to up button -->
-  <div class="scroll-button">
-    <a href="#home"><i class="fas fa-arrow-up"></i></a>
-  </div>
-  <!-- navgaition menu -->
-  <nav>
-    <div class="navbar">
-      <div class="logo"><a href="#">Portfolio.</a></div>
-      <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Power BI.html">Power BI Cases</a></li>
-       
-          <div class="cancel-btn">
-            <i class="fas fa-times"></i>
-          </div>
-      </ul>
-      <div class="media-icons" role="navigation">
-        <a href="https://www.linkedin.com/in/mohamed-ibrahim-98633057/"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://github.com/mohamednei"><i class="fab fa-github"></i></a>
-        <a href="https://www.facebook.com/MohamedNaeeem"><i class="fab fa-facebook"></i></a>
-        <a href="https://api.whatsapp.com/send?phone=201033662599"><i class="fab fa-whatsapp"></i></a>
-          
-    
-    
-      </div>
-    </div>
-    <div class="menu-btn">
-      <i class="fas fa-bars"></i>
-    </div>
-  </nav>
+	<!--------header---->
+	<header>
+		<a href="#" class="logo"><img src="img/logo.png"></a>
+		<div class="bx bx-menu" id="menu-icon"></div>
 
-<!-- Home Section Start -->
- <section class="home" id="home">
-   <div class="home-content">
-     <div class="text">
-       <div class="text-one">Hello,</div>
-       <div class="text-two">I'm Mohammed Ibrahim</div>
-       <div class="text-three">Data Insights Analyst</div>
-       <div class="text-four">From Egypt</div>
-     </div>
-     <div class="button">
-       <a href='https://www.linkedin.com/in/mohamed-ibrahim-98633057/'>
-        <button class="GFG">
-            Contact me
-        </button>
-     
-        
-     </div>
-   </div>
- </section>
+		<ul class="navlist">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="powerbi.html">Power BI</a></li>
+			
+		</ul>
+		<a href="Mohammed Naeem1.pdf" class="top-btn">Download CV</a>
+	</header>
 
-<!-- About Section Start -->
-<section class="about" id="about">
-  <div class="content">
-    <div class="title"><span>About Me</span></div>
-  <div class="about-details">
-    <div class="left">
-      <img src="about.jpg" alt="">
-    </div>
-    <div class="right">
-      <div class="topic">Forecasting Is My Passion</div>
-      <p>I am a Financial planning Analyst with nearly 12 years of experience in Fashion, Distributions, Infrastructure and FMCG, which I had the opportunity to work for one of the best multinational organization in Saudi Arabia, with an excellent understanding of data life cycle and its flow between different entities of enterprise functional business areas covering Supply Chain, Revenue Forecast, Budgeting, Financial Modelling, Cash Flow management, I also have expertise with data visualization in form of Dashboarding, Reports, Infographics using different BI tools for business to equip them making data driven decisions. .</p>
-      <div class="button">
-       <a href='Mohammed Naeem1.pdf'>
-        <button class="GFG">
-            Download Resume
-        </button>
-      
-      </div>
-    </div>
-  </div>
-  </div>
-</section>
+	<!--------home---->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h3>Hello, I'm</h3>
+			<h1>Mohammed Naeem</h1>
+			<h5>Data Insights Analyst <span>From Egypt</span></h5>
+			<p>Predicting the future isn’t magic, it’s artificial intelligence,  <br> My passion is to make data memorable with Storytelling .</p>
+			<div class="social">
+				<a href="https://www.facebook.com/MohamedNaeeem"><i class='bx bxl-facebook'></i></a>
+				<a href="https://www.linkedin.com/in/mohamed-ibrahim-98633057/"><i class='bx bxl-linkedin' ></i></a>
+				<a href="https://github.com/mohamednei"><i class="bx bxl-github"></i></a>
+				<a href="https://api.whatsapp.com/send?phone=201033662599"><i class="bx bxl-whatsapp"></i></a>
+			</div>
+			
+		</div>
+
+		<div class="home-img">
+			<img src="img/main.png">
+		</div>
+	</section>
+
+	
+
+	<!--------About---->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.jpg">
+		</div>
+
+		<div class="about-text">
+			<h3>I'm a Data Storytelling</h3>
+			<h2>I Can Design Any insights You Want</h2>
+			<p>I'm very passionate and dedicated to my work. With 12 years experience in Fashion, Distributions, Infrastructure and FMCG, which I had the opportunity to work for one of the top multinational organization in Saudi Arabia, using data to create actionable insight that inspires and tells a story.</p>
+			<a href="https://www.linkedin.com/in/mohamed-ibrahim-98633057/" class="btn">Contact Me</a>
+		</div>
+	</section>
 
 
-<!-- Footer Section Start -->
-<footer>
-  <div class="text">
-    <span>Created By <a href="#">Mohammed</a> | &#169; 2022 All Rights Reserved</span>
-  </div>
-</footer>
 
-  <script src="script.js"></script>
+
+	<!--------ends---->
+	<div class="ends">
+		<p>Made with love by Mohammed Naeem © 2022</p>
+	</div>
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!--------Link to js---->
+	<script type="text/javascript" src="js/script.js"></script>
+	
 </body>
 </html>
