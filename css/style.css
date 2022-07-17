@@ -260,7 +260,7 @@ header.sticky{
 }
 .portfolio-content{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(540px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(auto, auto));
 	grid-gap: 2rem;
 	align-items: center;
 	margin-top: 5rem;
@@ -272,7 +272,7 @@ header.sticky{
 }
 .col img{
 	max-width: 100%;
-	width: 550px;
+	width: auto;
 	height: auto;
 	object-fit: cover;
 	border-radius: 12px;
